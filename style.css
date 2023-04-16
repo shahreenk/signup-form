@@ -1,0 +1,145 @@
+@font-face {
+  font-family: Norse;
+  src: url(Norse-Bold.otf);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.graphics {
+  background: #6aba99 url(images/johny-goerend-U_diPCXCBxU-unsplash.jpg);
+  background-size: cover;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  margin-top: 9em;
+  background-color: #0000005c;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 0;
+}
+
+.logo img {
+  height: 8em;
+}
+
+.logo h1 {
+  font-size: 6rem;
+  font-family: Norse;
+  color: #fff;
+  margin: 0;
+}
+
+.graphics p {
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.graphics a {
+  color: #fff;
+}
+
+form {
+  font-size: 1.5rem;
+}
+
+.intro-text {
+  padding: 4em 1.5em 1.5em;
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+
+.text {
+  width: 65%;
+}
+
+.signup-info {
+  padding: 0.5em 1.5em;
+  box-shadow: 0 3px 5px #d3d3d3;
+}
+
+.signup-info p {
+  font-weight: bold;
+}
+
+.inputs-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-right: 2.5em;
+  margin-bottom: 1em;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+}
+
+.input-field {
+  border: 1px solid #e5e7eb;
+  border-radius: 3px;
+  padding: 7px;
+}
+
+.signup-submit {
+  padding: 1em 1.5em;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 1em 2em;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  background-color: #116065;
+  color: #fff;
+  font-family: inherit;
+  font-weight: bold;
+  border: none;
+}
+
+.signup-submit p {
+  font-size: 1.2rem;
+}
+
+.signup-submit a {
+  color: #116065;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.error {
+  border-color: #ff0000;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #0000ff;
+}
+
+.validation-msg {
+  font-size: 0.75rem;
+}
